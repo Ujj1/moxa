@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="0" name="tet.runTest" time="0.07" errors="2" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/raj/moxa"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/raj/moxa"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/raj/moxa/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/raj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/raj"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="raj"/>
+    <property name="java.class.path" value="/Users/raj/moxa/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="/Users/raj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/raj/moxa/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| Bhuna Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="Given the customer is on home page" time="0.004"/>
+  <testcase classname="| Bhuna Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="When he chooses to add an &quot;Bhuna Spice Pot&quot; to the cart" time="0"/>
+  <testcase classname="| Bhuna Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="Then he should be able to do so with by &quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot; on the item and adding it to the to cart button" time="0.001"/>
+  <testcase classname="| Bhuna Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="And the cart window opens with the item added" time="0.001"/>
+  <testcase classname="| Bhuna Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="| Bhuna Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" time="0.001"/>
+  <testcase classname="| Goan Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="Given the customer is on home page" time="0"/>
+  <testcase classname="| Goan Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="When he chooses to add an &quot;Goan Spice Pot&quot; to the cart" time="0"/>
+  <testcase classname="| Goan Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="Then he should be able to do so with by &quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot; on the item and adding it to the to cart button" time="0.009">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot;}
+Command duration or timeout: 2.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Rajs-MBP&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6187e8a8-a3d2-e141-b084-f0b5bc99df21
+*** Element info: {Using=xpath, value=//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot;}
+Command duration or timeout: 2.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Rajs-MBP&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6187e8a8-a3d2-e141-b084-f0b5bc99df21
+*** Element info: {Using=xpath, value=//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at tet.SearchItem.clickingOnItemExamples(SearchItem.java:31)
+	at tet.MyStepdefs.heShouldBeAbleToDoSoWithByOnTheItemAndAddingItToTheToCartButton(MyStepdefs.java:37)
+	at ✽.Then he should be able to do so with by &quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot; on the item and adding it to the to cart button(tet/test.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Rajs-MBP&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+</error>
+  </testcase>
+  <testcase classname="| Goan Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="| Goan Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" time="0.023">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot;}
+Command duration or timeout: 2.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Rajs-MBP&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6187e8a8-a3d2-e141-b084-f0b5bc99df21
+*** Element info: {Using=xpath, value=//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot;}
+Command duration or timeout: 2.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Rajs-MBP&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6187e8a8-a3d2-e141-b084-f0b5bc99df21
+*** Element info: {Using=xpath, value=//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at tet.SearchItem.clickingOnItemExamples(SearchItem.java:31)
+	at tet.MyStepdefs.heShouldBeAbleToDoSoWithByOnTheItemAndAddingItToTheToCartButton(MyStepdefs.java:37)
+	at ✽.Then he should be able to do so with by &quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot; on the item and adding it to the to cart button(tet/test.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Rajs-MBP&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+</error>
+  </testcase>
+  <testcase classname="| Goan Spice Pot | //*[@id=&apos;item_list&apos;]/div[2]/div/div[1]/div/div[3]/a |" name="And the cart window opens with the item added" time="0.023">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: customer should not be able to add item to the basket with out required details" name="Given the customer is on home page" time="0"/>
+  <testcase classname="Scenario: customer should not be able to add item to the basket with out required details" name="When he searches for an item" time="0"/>
+  <testcase classname="Scenario: customer should not be able to add item to the basket with out required details" name="And adds it to the basket before entering the required details" time="0"/>
+  <testcase classname="Scenario: customer should not be able to add item to the basket with out required details" name="Then the item should fail to be added to the cart" time="0"/>
+  <testcase classname="Scenario: customer should not be able to add item to the basket with out required details" name="Scenario: customer should not be able to add item to the basket with out required details" time="0.008"/>
+</testsuite>

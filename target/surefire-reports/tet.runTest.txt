@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: tet.runTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 55.717 sec <<< FAILURE!
+Then he should be able to do so with by "//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a" on the item and adding it to the to cart button(| Goan Spice Pot | //*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a |)  Time elapsed: 0.009 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a"}
+Command duration or timeout: 2.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Rajs-MBP', ip: '192.168.0.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6187e8a8-a3d2-e141-b084-f0b5bc99df21
+*** Element info: {Using=xpath, value=//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at tet.SearchItem.clickingOnItemExamples(SearchItem.java:31)
+	at tet.MyStepdefs.heShouldBeAbleToDoSoWithByOnTheItemAndAddingItToTheToCartButton(MyStepdefs.java:37)
+	at ✽.Then he should be able to do so with by "//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a" on the item and adding it to the to cart button(tet/test.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Rajs-MBP', ip: '192.168.0.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_73'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+
+| Goan Spice Pot | //*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a |  Time elapsed: 0.023 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a"}
+Command duration or timeout: 2.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Rajs-MBP', ip: '192.168.0.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6187e8a8-a3d2-e141-b084-f0b5bc99df21
+*** Element info: {Using=xpath, value=//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at tet.SearchItem.clickingOnItemExamples(SearchItem.java:31)
+	at tet.MyStepdefs.heShouldBeAbleToDoSoWithByOnTheItemAndAddingItToTheToCartButton(MyStepdefs.java:37)
+	at ✽.Then he should be able to do so with by "//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a" on the item and adding it to the to cart button(tet/test.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='item_list']/div[2]/div/div[1]/div/div[3]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Rajs-MBP', ip: '192.168.0.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_73'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/x_/3p82sq_937v7jnnq7zfjt71m0000gn/T/anonymous6069281021883245574webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+
